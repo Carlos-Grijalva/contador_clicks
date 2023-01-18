@@ -3,6 +3,7 @@ addEventListener('DOMContentLoaded', ()=> {
 });
 
 let contador = ()=> {
+    alert("Estas por comenzar un contador");
     let clicks = 0;
     let boton = document.getElementById('boton');
     boton.addEventListener('click', ()=> {
